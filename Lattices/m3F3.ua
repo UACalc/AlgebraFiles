@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<algebra>
+  <freeAlgebra>
+    <algName>F(3) over m3</algName>
+    <cardinality>28</cardinality>
+    <generators>
+      <productElem>
+        0,0,0,1,1,1,1,1,1,1,1,1,1,4,4,4
+      </productElem>
+      <productElem>
+        1,1,4,0,0,1,2,2,2,2,2,4,4,0,1,1
+      </productElem>
+      <productElem>
+        2,4,1,2,4,2,0,1,2,3,4,0,2,1,0,2
+      </productElem>
+    </generators>
+    <universe>
+      <productElem>
+        0,0,0,1,1,1,1,1,1,1,1,1,1,4,4,4
+      </productElem>
+      <productElem>
+        1,1,4,0,0,1,2,2,2,2,2,4,4,0,1,1
+      </productElem>
+      <productElem>
+        2,4,1,2,4,2,0,1,2,3,4,0,2,1,0,2
+      </productElem>
+      <productElem>
+        0,0,0,0,0,1,0,0,0,0,0,1,1,0,1,1
+      </productElem>
+      <productElem>
+        0,0,0,0,1,0,0,1,0,0,1,0,0,1,0,2
+      </productElem>
+      <productElem>
+        0,1,1,0,0,0,0,0,2,0,2,0,2,0,0,0
+      </productElem>
+      <productElem>
+        1,1,4,1,1,1,4,4,4,4,4,4,4,4,4,4
+      </productElem>
+      <productElem>
+        2,4,1,4,4,4,1,1,4,4,4,1,4,4,4,4
+      </productElem>
+      <productElem>
+        4,4,4,2,4,4,2,4,2,4,4,4,4,1,1,4
+      </productElem>
+      <productElem>
+        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+      </productElem>
+      <productElem>
+        0,0,0,0,1,1,0,1,0,1,1,1,1,1,1,4
+      </productElem>
+      <productElem>
+        0,1,1,0,0,1,0,0,2,2,2,1,4,0,1,1
+      </productElem>
+      <productElem>
+        0,1,1,0,1,0,0,1,2,3,4,0,2,1,0,2
+      </productElem>
+      <productElem>
+        0,1,1,1,1,1,1,1,4,4,4,1,4,4,4,4
+      </productElem>
+      <productElem>
+        1,1,4,0,1,1,2,4,2,4,4,4,4,1,1,4
+      </productElem>
+      <productElem>
+        2,4,1,2,4,4,0,1,2,4,4,1,4,1,1,4
+      </productElem>
+      <productElem>
+        0,1,1,1,1,1,1,1,4,1,4,1,4,4,4,4
+      </productElem>
+      <productElem>
+        4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+      </productElem>
+      <productElem>
+        1,1,4,0,1,1,2,4,2,2,4,4,4,1,1,4
+      </productElem>
+      <productElem>
+        2,4,1,2,4,4,0,1,2,3,4,1,4,1,1,4
+      </productElem>
+      <productElem>
+        0,0,0,0,1,1,0,1,0,0,1,1,1,1,1,4
+      </productElem>
+      <productElem>
+        0,1,1,0,0,1,0,0,2,0,2,1,4,0,1,1
+      </productElem>
+      <productElem>
+        0,1,1,0,1,0,0,1,2,0,4,0,2,1,0,2
+      </productElem>
+      <productElem>
+        0,1,1,0,1,1,0,1,2,4,4,1,4,1,1,4
+      </productElem>
+      <productElem>
+        0,1,1,0,1,1,0,1,2,3,4,1,4,1,1,4
+      </productElem>
+      <productElem>
+        0,1,1,0,1,1,0,1,2,2,4,1,4,1,1,4
+      </productElem>
+      <productElem>
+        0,1,1,0,1,1,0,1,2,1,4,1,4,1,1,4
+      </productElem>
+      <productElem>
+        0,1,1,0,1,1,0,1,2,0,4,1,4,1,1,4
+      </productElem>
+    </universe>
+    <superAlgebra>
+      <bigProductAlgebra>
+        <powers>
+          <intArray>
+            16
+          </intArray>
+        </powers>
+        <rootFactors>
+          <factor>
+            <basicAlgebra>
+              <algName>m3</algName>
+              <desc>the diamond</desc>
+              <cardinality>5</cardinality>
+              <operations>
+                <op>
+                  <opSymbol>
+                    <opName>meet</opName>
+                    <arity>2</arity>
+                  </opSymbol>
+                  <opTable>
+                    <intArray>
+                      <row r="[0]">0,0,0,0,0</row>
+                      <row r="[1]">0,1,0,0,1</row>
+                      <row r="[2]">0,0,2,0,2</row>
+                      <row r="[3]">0,0,0,3,3</row>
+                      <row r="[4]">0,1,2,3,4</row>
+                    </intArray>
+                  </opTable>
+                </op>
+                <op>
+                  <opSymbol>
+                    <opName>join</opName>
+                    <arity>2</arity>
+                  </opSymbol>
+                  <opTable>
+                    <intArray>
+                      <row r="[0]">0,1,2,3,4</row>
+                      <row r="[1]">1,1,4,4,4</row>
+                      <row r="[2]">2,4,2,4,4</row>
+                      <row r="[3]">3,4,4,3,4</row>
+                      <row r="[4]">4,4,4,4,4</row>
+                    </intArray>
+                  </opTable>
+                </op>
+              </operations>
+            </basicAlgebra>
+          </factor>
+        </rootFactors>
+      </bigProductAlgebra>
+    </superAlgebra>
+  </freeAlgebra>
+</algebra>
