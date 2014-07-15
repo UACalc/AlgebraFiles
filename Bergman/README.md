@@ -4,6 +4,7 @@ The OverAlgebraD2.ua file is an expansion of the algebra in bergmanD2.ua.
 The universe is constructed from 3 isomorphic copies of the original CIB
 that intersect as shown in the following diagram:
 
+|   |   |   |   |   |   |   |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | 16| 15| 14|   | 24| 23| 22|
 | 13| 12| 11|   | 21| 20| 19|
