@@ -24,8 +24,7 @@ Notice that these sets intersect as shown below.
 |   |   |  3|  4|  5|   |   |
 |   |   |  6|  7|  8|   |   |
 
-Thus the universe of the new algebra **B** is
-B = B<sub>0</sub> U B<sub>1</sub> U B<sub>2</sub>,
+The universe of **B** is B<sub>0</sub> U B<sub>1</sub> U B<sub>2</sub>,
 and we define on this universe a single binary operation,
 *g*, as follows:
 
