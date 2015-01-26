@@ -2,7 +2,7 @@
 <algebra>
   <basicAlgebra>
     <algName>A0Robust</algName>
-    <desc>A0 from the Freese-McKenzie Robust paper. This is a reduct of Polin's P0.</desc>
+    <desc>A0 from the Freese-McKenzie Robust paper. This is a reduct of Polin's P0. It has a Pixley term. Its product with A1 is not CM.</desc>
     <cardinality>2</cardinality>
     <operations>
       <op>

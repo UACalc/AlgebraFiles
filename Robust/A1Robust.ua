@@ -2,7 +2,7 @@
 <algebra>
   <basicAlgebra>
     <algName>A1Robust</algName>
-    <desc>A1 from the Freese-McKenzie Robust paper. This is a reduct of Polin's P1.</desc>
+    <desc>A1 from the Freese-McKenzie Robust paper. This is a reduct of Polin's P1. It is 3-permutable and 3-distributive.</desc>
     <cardinality>2</cardinality>
     <operations>
       <op>

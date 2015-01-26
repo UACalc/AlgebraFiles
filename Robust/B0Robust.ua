@@ -2,7 +2,7 @@
 <algebra>
   <basicAlgebra>
     <algName>B0</algName>
-    <desc>This is B0 the Freese-McKenzie Robust paper.</desc>
+    <desc>This is B0 the Freese-McKenzie Robust paper. It and B1 have a Pixley term but B0 x B1 is not CP. It is 3-permutable and has a majority term.</desc>
     <cardinality>2</cardinality>
     <operations>
       <op>

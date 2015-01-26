@@ -2,7 +2,7 @@
 <algebra>
   <basicAlgebra>
     <algName>A2Robust</algName>
-    <desc>A2 from the Freese-McKenzie Robust paper.</desc>
+    <desc>A2 from the Freese-McKenzie Robust paper. It is 3-permutable. Its product with A1 is 5 but not 4 permutable.</desc>
     <cardinality>2</cardinality>
     <operations>
       <op>
