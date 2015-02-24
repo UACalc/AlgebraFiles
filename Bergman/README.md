@@ -1,52 +1,27 @@
-Some UACalc files associated with commutative idempotent binar research.
+**CIB5-ALL.ua** contains, in a single UACalc file, all strictly simple
+commutative idempotent binars (CIB's) of size 5.
+(These are no longer very interesting since we now know the CSP associated with
+each of these algebras is tractable.)
 
-The OverAlgebraD2.ua file is an expansion of the algebra in bergmanD2.ua.
-For the remainder of this README file, we denote the algebra in
-bergmanD2.ua by **A**, and the algebra in OverAlgebraD2.ua by **B**.
+**CIB4-SL-nonSDmeet.ua** contains, in a single UACalc file, the 4-element
+simple CIB's containing the 2-elt semilattice as a subalgebra and such that
+V(A) is not congruence SD-meet.
 
-The universe of **B** is constructed as a union of 3 sets,
-B<sub>0</sub>, B<sub>1</sub>, B<sub>2</sub>,
-each of the same cardinality as A. The sets are
+**Why we care about these algebras:**
 
-B<sub>0</sub> = {0, 1, 2, ..., 8}
+Bergman and DeMeo observed that if A is a finite CIB such that V(A) omits tct
+type 5 (2-elt semilattice), then the polynomial clone of A contains an edge
+term.  So in this case CSP(A) is tractable.  (Keith Kearnes subsequently showed
+how to extend this and prove that, for such algebras, V(A) is actually
+congruence modular.) 
 
-B<sub>1</sub> = {0, 9, 10, ..., 16}
+We want to show that all finite CIB's yield tractable CSP's.  Because of the
+above mentioned observations, we focus on tractability of finite CIB's
+containing the 2-elt semilattice as a subalgebra.
 
-B<sub>2</sub> = {17, 18, 2, 19, ..., 24}
-
-Notice that these sets intersect as shown below.
-
-|   |   |   |   |   |   |   |
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| 16| 15| 14|   | 24| 23| 22|
-| 13| 12| 11|   | 21| 20| 19|
-| 10|  9|  0|  1|  2| 18| 17|
-|   |   |  3|  4|  5|   |   |
-|   |   |  6|  7|  8|   |   |
-
-The universe of **B** is B<sub>0</sub> U B<sub>1</sub> U B<sub>2</sub>,
-and we define on this universe a single binary operation,
-*g*, as follows:
-
-If x and y come from the same B<sub>i</sub>, then g(x,y) is just the
-binary op of the original algebra **A**.
-
-When x comes from B<sub>i</sub> and y comes from B<sub>j</sub>,
-with i not equal to j, then g(x,y) is the result of first
-mapping x and y to B<sub>0</sub> and then doing the original binary op,
-and then mapping the result to B<sub>k</sub> where k is not in {i, j}.
-
-The resulting congruence on **B**
-is a four element chain with the following nontrivial congruences:
-
-beta = |0,1,2,9,10,17,18|3,4,5,11,12,13,19,20,21|6,7,8,14,15,16,22,23,24|
-
-alpha = |0,17|1,9,18|2,10|3,11,19|4,12,20|5,13,21|6,14,22|7,15,23|8,16,24|
-
-Note that beta has one 7-element block and two 9-element blocks.
-
-All blocks except the 2-element blocks are CIB subalgebras.
-
-The 9-element blocks of beta generate CP varieties, but
-the 7-element block does not.
+It's not hard to see that a minimal example of an intractable finite CIB must
+be simple, so we focus on simple CIB's.  Also, if A generates a congruence
+SD-meet variety, it is tractable by the local consistency algorithm.
+So we want to look at the small (say, 4-element) simple CIB's containing the
+2-element semilattice and not generating an SD-meet variety.
 
