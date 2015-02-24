@@ -25,3 +25,10 @@ SD-meet variety, it is tractable by the local consistency algorithm.
 So we want to look at the small (say, 4-element) simple CIB's containing the
 2-element semilattice and not generating an SD-meet variety.
 
+**CIB4-no-edge-term.ua** is an algebra that has the 2-elt semilattice as
+a homomorphic image. So, in particular, this algebra cannot have an edge term.
+However, the calculator says the algebra has no cube term blocker (so there's a
+cube term, hence an edge term).
+
+(In fact, there *is* a cube term blocker---namely, (C, D) where C = {0,1,2} and D = {0,1,2,3}.)
+
