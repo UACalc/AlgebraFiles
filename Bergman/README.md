@@ -11,9 +11,9 @@ V(A) is not congruence SD-meet.
 
 Bergman and DeMeo observed that if A is a finite CIB such that V(A) omits tct
 type 5 (2-elt semilattice), then the polynomial clone of A contains an edge
-term.  So in this case CSP(A) is tractable.  (Keith Kearnes subsequently showed
+term.  So in this case CSP(A) is tractable.  Keith Kearnes subsequently showed
 how to extend this and prove that, for such algebras, V(A) is actually
-congruence modular.) 
+congruence permutable. 
 
 We want to show that all finite CIB's yield tractable CSP's.  Because of the
 above mentioned observations, we focus on tractability of finite CIB's
@@ -28,7 +28,7 @@ So we want to look at the small (say, 4-element) simple CIB's containing the
 **CIB4-no-edge-term.ua** is an algebra that has the 2-elt semilattice as
 a homomorphic image. So, in particular, this algebra cannot have an edge term.
 However, the calculator says the algebra has no cube term blocker (so there's a
-cube term, hence an edge term).
+cube term, hence an edge term).  This has since been fixed.
 
-(In fact, there *is* a cube term blocker---namely, (C, D) where C = {0,1,2} and D = {0,1,2,3}.)
+In fact, there *is* a cube term blocker---namely, (C, D) where C = {0,1,2} and D = {0,1,2,3}.
 
