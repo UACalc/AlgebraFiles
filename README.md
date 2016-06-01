@@ -9,9 +9,9 @@ many examples of such files.
 
 ## Releases and Citations
 Citing files in this repository in publications requires some care because
-the contents of this repository changes often. Nonetheless, it is possible to create accurate
+the contents of this repository change often. Nonetheless, it is possible to create accurate
 citations that point to files that existed at some point in time (but might no longer exist in the
-master branch of the repository). This is accomplished using [releases](https://help.github.com/categories/releases/) and [tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging).
+master branch). This is accomplished using [releases](https://help.github.com/categories/releases/) and [tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging).
 
 ### current release
 As of June 1, 2016, the current release of the AlgebraFiles repository is v1.0.1.
