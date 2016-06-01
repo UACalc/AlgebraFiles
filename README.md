@@ -5,14 +5,18 @@ Finite universal algebras can be described using XML tags understood by the
 [Universal Algebra Calculator](http://uacalc.org).  This repository contains
 many examples of such files.
 
+----
+
 ## Releases and Citations
-Citing files in this repository (say, in a journal article) requires some care because
+Citing files in this repository in publications requires some care because
 the contents of this repository changes often. Nonetheless, it is possible to create accurate
 citations that point to files that existed at some point in time (but might no longer exist in the
-master branch of the repository). We do this using releases and tags.
+master branch of the repository). This is accomplished using [releases](https://help.github.com/categories/releases/) and [tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging).
 
-As of June 1, 2016, the current release is v1.0.1.  To view the contents of this release, click on
-the `Branch: master` dropdown menu and select `Tags -> v1.0.1`.  Alternatively, go directly to
+### current release
+As of June 1, 2016, the current release of the AlgebraFiles repository is v1.0.1.
+To view the contents of this release, click on the `Branch: master` dropdown menu above
+and select `Tags -> v1.0.1`.  Alternatively, go directly to
 https://github.com/UACalc/AlgebraFiles/tree/v1.0.1
 
 To cite the contents of release v1.0.1, use the following BibTeX data:
@@ -27,6 +31,10 @@ To cite the contents of release v1.0.1, use the following BibTeX data:
       url          = {http://dx.doi.org/10.5281/zenodo.53936}
     }
 
+----
+
+## Adding new algebra files
+
 If you would like to add your own algebra (.ua) files to this repository so you can safely cite them in
 publications, you can either
 
@@ -40,6 +48,8 @@ publications, you can either
 After you do (1) or (2), a new release and a corresponding BibTeX entry will be generated.
 
 ----
+
+## More information
 
 For more information about UACalc and the algebra files, see [uacalc.org/algfiles](http://uacalc.org/algfiles/).
 
