@@ -5,6 +5,9 @@ Finite universal algebras can be described using XML tags understood by the
 [Universal Algebra Calculator](http://uacalc.org).  This repository contains
 many examples of such files.
 
+[![DOI](https://zenodo.org/badge/21787310.svg)](https://zenodo.org/badge/latestdoi/21787310)
+
+
 ----
 
 ## Releases and citations
