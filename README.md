@@ -5,9 +5,6 @@ Finite universal algebras can be described using XML tags understood by the
 [Universal Algebra Calculator](http://uacalc.org).  This repository contains
 many examples of such files.
 
-[![DOI](https://zenodo.org/badge/21787310.svg)](https://zenodo.org/badge/latestdoi/21787310)
-
-
 ----
 
 ## Releases and citations
@@ -17,6 +14,9 @@ citations that point to files that existed at some point in time (but might no l
 master branch). This is accomplished using [releases](https://help.github.com/categories/releases/) and [tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging).
 
 ### Current release
+
+[![DOI](https://zenodo.org/badge/21787310.svg)](https://zenodo.org/badge/latestdoi/21787310)
+
 As of June 1, 2016, the current release of the AlgebraFiles repository is v1.0.1.
 To view the contents of this release, click on the `Branch: master` dropdown menu above
 and select `Tags -> v1.0.1`.  Alternatively, go directly to
