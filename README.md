@@ -27,7 +27,7 @@ To cite the contents of release v1.0.1, use the following BibTeX data:
     @misc{william_demeo_2016_53936,
       author       = {William DeMeo and
                       Ralph Freese},
-      title        = {AlgebraFiles v1.0.1},
+      title        = {Algebra{F}iles v1.0.1},
       month        = May,
       year         = 2016,
       doi          = {10.5281/zenodo.53936},
