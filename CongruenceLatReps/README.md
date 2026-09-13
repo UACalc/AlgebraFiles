@@ -53,12 +53,18 @@ them the following:
 +  `RegActSmallGroup216-153.ua`, the regular action of `SmallGroup(216,153)`
    = ((C3 x C3) : Q8) : C3, in whose subgroup lattice L<sub>11</sub> and
    L<sub>20</sub> appear as the union of a filter and an ideal;
-+  `A4xA4_sdp_C2.ua`, the G-set of `SmallGroup(288,1025)` = (A4 x A4) : C2, in
-   whose subgroup lattice L<sub>17</sub> is an interval;
++  `A4xA4_sdp_C2.ua`, the group `SmallGroup(288,1025)` = (A4 x A4) : C2 as a
+   binary algebra, that is, its multiplication table, in whose subgroup lattice
+   L<sub>17</sub> is an interval.  This one is a group, not a G-set: loading it
+   gives you 288 elements and one operation of arity 2;
 +  `PSL2-11_sdp_C2.ua`, the 330-point G-set of PSL(2,11) : C2, which is also
    the file the fin-lat-rep repository calls `DoubleWinged2x2.ua`;
-+  `IntransGset-*.ua`, intransitive G-sets used in the section on intransitive
-   group actions.
++  `IntransGset-S3ActOnS3xS3-2.ua` and `IntransGset-S4ActOnS4xS4-2.ua`, the
+   intransitive G-sets used in the section on intransitive group actions.  The
+   first has two orbits of size 6, two copies of the regular action of S3; the
+   second has two orbits of size 4, two copies of the natural 4-point action of
+   S4, so it has 8 points and not the 48 that two copies of the regular action
+   would give.  The transitive one-copy case is `RegActS3.ua`.
 
 [UniversalAlgebra/fin-lat-rep]: https://github.com/UniversalAlgebra/fin-lat-rep
 [UniversalAlgebra/fin-lat-rep-gap]: https://github.com/UniversalAlgebra/fin-lat-rep-gap

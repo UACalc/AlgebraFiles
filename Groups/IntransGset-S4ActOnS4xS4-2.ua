@@ -2,7 +2,7 @@
 <algebra>
 <basicAlgebra>
 <algName>S4ActOnS4xS4</algName>
-<desc>Intransitive G-set S4 acting on 2 copies of itself.</desc>
+<desc>Intransitive G-set: two copies of the natural 4-point action of S4.</desc>
 <cardinality>8</cardinality>
 <operations>
 <op>
