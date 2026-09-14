@@ -1,0 +1,23 @@
+{
+    "title": "UACalc AlgebraFiles",
+    "description": "<p>A repository of algebra files for the <a href=\"https://uacalc.org\">Universal Algebra Calculator</a>. Finite universal algebras are described using XML tags that UACalc understands; this repository collects many such examples, including the algebras behind several published articles.</p>",
+    "creators": [
+        {
+            "name": "DeMeo, William"
+        },
+        {
+            "name": "Freese, Ralph"
+        }
+    ],
+    "license": "cc-by-4.0",
+    "upload_type": "software",
+    "access_right": "open",
+    "keywords": [
+        "universal algebra",
+        "congruence lattice",
+        "finite algebra",
+        "lattice theory",
+        "Universal Algebra Calculator",
+        "UACalc"
+    ]
+}
